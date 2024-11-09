@@ -8,7 +8,16 @@ export default function App() {
       <h1>Weather App</h1>
       <h2>Start coding to see some magic happen!</h2>
       <WeatherSearch />
-      <footer>Coded by Charlie G., hosted on Github and open-sourced.</footer>
+      <footer>
+        Coded by Charlie G., hosted on{" "}
+        <a
+          href="https://github.com/charliegood2046/React-Weather-App-Charlie"
+          target="_blank"
+        >
+          Github
+        </a>{" "}
+        and open-sourced.
+      </footer>
     </div>
   );
 }
